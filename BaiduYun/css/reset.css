@@ -1,0 +1,44 @@
+/*reset*/
+body,p,h1,h2,h3,h4,h4,h5,h6,dl,dd,form{
+	margin:0;
+}
+body{
+	font:12px/1.5 "Arial","Verdana","\5b8b\4f53";
+	color: #666;
+	min-width: 1349px;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h4,h5,h6,strong{
+	font-weight:normal;
+	font-size:100%;
+}
+a,s,i,b,em,q{
+	text-decoration: none;
+	font-style: normal;
+	color: #666;
+}
+img{
+	border: 0 none;
+	vertical-align:top ;
+}
+ul,ol{
+	margin:0;
+	padding:0;
+	list-style: none;	
+}
+select{
+	margin:0;
+	padding:0;
+	border:0 none;
+	vertical-align: middle;
+}
+input{
+	margin:0;
+	padding:0;
+	border:none;
+	outline: none;
+}
+table{
+	border-collapse:collapse;
+	padding:0;
+}

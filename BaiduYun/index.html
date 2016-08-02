@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>百度云 个人主页 - 云上的日子 你我共享</title>
+	<meta name="author" content="陈斌" />
+	<link rel="icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/tool.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<script type="text/javascript" src="js/move.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<section id="head_wrap" class="clear">
+		<!--logo-->
+		<div id="logo" class="f_lt">
+			<a href="javascript:;" title="百度云" target="_blank" ></a>
+		</div>
+		<!--nav-->
+		<div id="navs" class="f_lt">
+			<a href="javascript:;" class="navs_item f_lt navs_active" id="homepage">主页</a>
+			<span class="navs_line f_lt"></span>
+			<div id="navs_box" >
+				<a href="#" class="navs_item">
+					<em class="sprite arr_icon"></em>
+					网盘
+				</a>
+				<div id="navs_list">
+					<a href="javascript:;" id="navs_disk">
+						<span class="navs_icon"></span>
+						<span class="navs_text">网盘</span>
+					</a>
+					<a href="#" id="navs_address">
+						<span class="navs_icon"></span>
+						<span class="navs_text">通讯录</span>
+					</a>
+					<a href="#" id="navs_record">
+						<span class="navs_icon"></span>
+						<span class="navs_text">通讯记录</span>
+					</a>
+					<a href="#" id="navs_message">
+						<span class="navs_icon"></span>
+						<span class="navs_text">短信</span>
+					</a>
+					<a href="#" id="navs_photo">
+						<span class="navs_icon"></span>
+						<span class="navs_text">相册</span>
+					</a>
+					<a href="#" id="navs_article">
+						<span class="navs_icon"></span>
+						<span class="navs_text">文章</span>
+					</a>
+					<a href="#" id="navs_book">
+						<span class="navs_icon"></span>
+						<span class="navs_text">记事本</span>
+					</a>
+					<a href="#" id="navs_phone">
+						<span class="navs_icon"></span>
+						<span class="navs_text">手机找回</span>
+					</a>
+					<a href="#" id="navs_cloud">
+						<span class="navs_icon"></span>
+						<span class="navs_text">云直播</span>
+					</a>
+				</div>
+			</div>
+			<span class="navs_line f_lt"></span>
+			<a href="#" class="navs_item f_lt">分享</a>
+			<a href="#" class="navs_item f_lt">应用</a>
+		</div>
+		<!--nav-info-->
+		<div id="navs_info" class="f_rt">
+			<ul class="clear">
+				<!--ad-->
+				<li id="head_ad" class="info_item">
+					<a href="#">企业版试用免费限量抢</a>
+				</li>
+				<!--progress-->
+				<li id="head_pro" class="info_item">
+					<a href="javascript:;">扩容</a>
+					<div id="progress">
+						<div class="pro_con">
+							<span class="pro_bar"></span>
+							<span class="pro_text">2.41G/2055G</span>
+						</div>
+					</div>
+				</li>
+				<!--user-->
+				<li id="head_user" class="info_item">
+					<em class="sprite arr_icon"></em>
+					<span id="user_name"></span>
+					<div id="user_list">
+						<em class="arrow"></em>
+						<ul>
+							<li class="user_item">
+								<a href="#">个人资料</a>
+							</li>
+							<li class="user_item">
+								<a href="#">购买充容</a>
+							</li>
+							<li class="user_item">
+								<a href="#">云冲印</a>
+							</li>
+							<li class="user_line"></li>
+							<li class="user_item" id='esc'>
+								<a href="javascript:;">退出</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<!--vip_center-->
+				<li id="vip_center" class="info_item">
+					<a href="#">会员中心</a>
+				</li>
+				<!--down-->
+				<li id="down" class="info_item">
+					<a href="#">客户端下载</a>
+				</li>
+				<!--message-->
+				<li id="message" class="info_item">
+					<a href="#">通知</a>
+				</li>
+				<!--more-->
+				<li id="more" class="info_item">
+					<em class="sprite arr_icon"></em>
+					<span>更多</span>
+					<div id="more_list">
+						<em class="arrow"></em>
+						<ul>
+							<li class="more_item">
+								<a href="#">移动开放平台</a>
+							</li>
+							<li class="more_line"></li>
+							<li class="more_item">
+								<a href="#">收藏工具</a>
+							</li>
+							<li class="more_item">
+								<a href="#">版本更新</a>
+							</li>
+							<li class="more_item">
+								<a href="#">帮助中心</a>
+							</li>
+							<li class="more_item">
+								<a href="#">问题反馈</a>
+							</li>
+							<li class="more_item">
+								<a href="#">服务协议</a>
+							</li>
+							<li class="more_item">
+								<a href="#">权利声明</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!--login-->
+	<section id="register">
+		<!--login_bg-->
+		<div id="register_bg">
+			<img src="img/bg_1.jpg" alt="" class="bg_1"/>
+			<img src="img/bg_2.jpg" alt="" class="bg_2"/>
+			<img src="img/tab_1.gif" alt="" class="tab_1"/>
+			<img src="img/tab_2.gif" alt="" class="tab_2"/>
+		</div>
+		<!--login_box-->
+		<div id="login_wrap">
+			<div class="hint">
+				<p>可用账号密码：</p>
+				账号：miaoweiketang</br>
+				密码：miaoweiketang</br>
+				用户名：妙味课堂88</br>
+				</br>
+				账号：miaovketang</br>
+				密码：miaovketang</br>
+				用户名：妙味课堂55</br>
+				</br>
+				账号：miaov</br>
+				密码：miaov</br>
+				用户名：妙味课堂99</br>
+				</br>
+				账号：miaov66</br>
+				密码：miaov66</br>
+				用户名：妙味课堂66</br>
+			</div>
+			<div id="login_top">
+				<em class="logo"></em>
+				登录百度帐号
+			</div>
+			<div id="login_box">
+				<from>
+					<p id="errortext"></p>
+					<p id="user">
+						<label for="user_id"></label>
+						<input type="text" value="miaoweiketang" id="user_id"/>
+					</p>
+					<p id="password">
+						<label for="password_name"></label>
+						<input type="password" value="miaoweiketang" id="password_name"/>
+					</p>
+					<p id="login">
+						<input type="submit" value="" id="login_btn"/>
+					</p>
+					<p class="login_line"></p>
+				</from>
+				<div id="login_info">
+					<p>可以使用以下方式登录</p>
+					<ul>
+						<li>
+							<a href="#" title="新浪微博" id="sina"></a>
+						</li>
+						<li>
+							<a href="#" title="QQ账号" id="qq"></a>
+						</li>
+						<li>
+							<a href="#" title="人人网" id="renren"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="register_box">
+				<a href="#"></a>
+			</div>
+		</div>
+	</section>
+	<!--main-->
+	<section id="main" class="clear">	
+	<!--main_aside-->
+		<div id="main_aside" class="f_lt">
+			<ul id="aside_page">
+				<li class="page_item">
+					<a href="#" id="my_new">
+						<em class="sprite icon"></em>
+						分享动态
+					</a>
+				</li>
+				<li class="page_item">
+					<a href="#" id="my_share">
+						<em class="sprite icon"></em>
+						我的分享
+					</a>
+				</li>
+				<li class="page_item">
+					<a href="#" id="my_message">
+						<em class="sprite icon"></em>
+						通知
+					</a>
+				</li>
+			</ul>
+			<div class="aside_line"></div>
+			<ul id="aside_entry">
+				<li class="entry_item">
+					<a href="javascript:;" id="aside_disk">
+						<em class="icon"></em>
+						网盘
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_address">
+						<em class="icon"></em>
+						通讯录
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_record">
+						<em class="icon"></em>
+						通话记录
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_message">
+						<em class="icon"></em>
+						短信
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_photo">
+						<em class="icon"></em>
+						相册
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_text">
+						<em class="icon"></em>
+						文章
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_book">
+						<em class="icon"></em>
+						记事本
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_phone">
+						<em class="icon"></em>
+						手机找回
+					</a>
+				</li>
+				<li class="entry_item">
+					<a href="#" id="aside_cloud">
+						<em class="icon"></em>
+						云直播
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--main_content-->
+		<div id="main_content" class="f_lt">
+			<!--main_head-->
+			<div id="main_head">
+				<div id="main_head_top">
+					<div id="main_ht_fl">
+						<ul id="share_box" class="clear">
+							<li class="share_item f_lt" id="share_special">
+								<span class="icon"></span>
+								<p class="text">
+									分享专辑
+								</p>
+							</li>
+							<li class="share_item f_lt" id="share_pic">
+								<span class="icon"></span>
+								<p class="text">
+									分享图片
+								</p>
+							</li>
+							<li class="share_item f_lt" id="share_video">
+								<span class="icon"></span>
+								<p class="text">
+									分享视频
+								</p>
+							</li>
+							<li class="share_item f_lt" id="share_doc">
+								<span class="icon"></span>
+								<p class="text">
+									分享文档
+								</p>
+							</li>
+							<li class="share_item f_lt" id="share_music">
+								<span class="icon"></span>
+								<p class="text">
+									分享音乐
+								</p>
+							</li>
+							<li class="share_item f_lt" id="share_else">
+								<span class="icon"></span>
+								<p class="text">
+									分享其他
+								</p>
+							</li>
+						</ul>
+						<div class="arrow"></div>
+					</div>
+					<ul id="person_info" >
+						<li class="person_pic">
+							<a href="#">
+								<img src="img/person.jpg" alt="" />
+							</a>
+						</li>
+						<li class="person_item">
+							<p>0</p>
+							分享
+						</li>
+						<li class="person_item">
+							<p>0</p>
+							专辑
+						</li>
+						<li class="person_item">
+							<p id="follow_num">0</p>
+							订阅
+						</li>
+						<li class="person_item">
+							<p>0</p>
+							粉丝
+						</li>
+					</ul>
+				</div>
+				<div id="main_head_bottom">
+					<ul id="main_nav" class="clear">
+						<li class="item">
+							<a href="#">全部</a>
+						</li>
+						<li class="item">
+							<a href="#">专辑</a>
+						</li>
+						<li class="item">
+							<a href="#">图片</a>
+						</li>
+						<li class="item">
+							<a href="#">视频</a>
+						</li>
+						<li class="item">
+							<a href="#">文档</a>
+						</li>
+						<li class="item">
+							<a href="#">音乐</a>
+						</li>
+						<li class="item">
+							<a href="#">其他</a>
+						</li>
+						<li class="line"></li>
+					</ul>
+				</div>
+			</div>
+			<!--main_body-->
+			<div id="main_body">
+				<div id="main_body_box" class="clear">
+					<div id="hot" class="f_lt">
+						<div id="hot_head">
+							<em class="icon"></em>
+							热门资源
+							<ul id="hot_pages" class="clear">
+							
+							</ul>
+						</div>
+						<div id="hot_content">
+							<div id="hot_box" class="clear">
+								
+							</div>
+						</div>
+					</div>
+					<div id="guess_like" class="f_lt">
+						<div id="guess_head">
+							<a href="javascript:;" class="change">换一换</a>
+							<em class="icon"></em>
+							猜你喜欢
+						</div>
+						<ul id="guess_content" class="clear">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--main_disk-->
+	<section id="main_disk">
+		<div id="disk_aside">
+			<ul class="menu_list">
+				<li class="list_item">
+					<a href="#" id="list_all">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">全部文件</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_pic">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">图片</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_doc">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">文档</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_vedio">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">视频</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_bt">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">种子</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_music">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">音乐</span>
+						</span>
+					</a>
+				</li>
+				<li class="list_item">
+					<a href="#" id="list_else">
+						<span class="name">
+							<span class="icon sprite2"></span>
+							<span class="title">其他</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			<div class="list_line"></div>
+			<div id="list_share">
+				<a href="#">
+					<span class="name">
+						<span class="icon"></span>
+							<span class="title">我的分享</span>
+					</span>
+				</a>
+			</div>
+			<div class="list_line"></div>
+			<div id="list_recycle">
+				<a href="#">
+					<span class="name">
+						<span class="icon"></span>
+							<span class="title">回收站</span>
+					</span>
+				</a>
+			</div>
+		</div>
+		<div id="disk_content">
+			<div id="disk_head">
+				<div class="btns clear">
+					<span class="btn_item upload">
+						<a href="#">上传</a>
+						<em></em>
+					</span>
+					<span class="btn_item creat">
+						<a href="javascript:;">新建文件夹</a>
+						<em></em>
+					</span>
+					<span class="btn_item down">
+						<a href="#">离线下载</a>
+						<em></em>
+					</span>
+					<span class="btn_item equipment">
+						<a href="#">我的设备</a>
+						<em></em>
+					</span>
+				</div>
+				<div class="list_switch_bar clear">
+					<a href="javascript:;" class="list_switch"></a>
+					<a href="javascript:;" class="grid_switch"></a>
+				</div>
+			</div>
+			<div id="disk_list">
+				<div class="list_top">
+					<span class="title">全部文件</span>
+					<span class="total"></span>
+					<ul class="history_box">
+						<li>
+							<a href="javascript:;">返回上一级</a>
+							<span class="history_line">|</span>
+							<a href="javascript:;">全部文件</a>
+							<span class="history_separator">></span>
+						</li>
+						<li class="history_list">
+							
+						</li>
+					</ul>
+				</div>
+				<div class="list_head">
+					<ul class="list_cols clear">
+						<li class="col first_col clear">
+							<span class="checked_icon"></span>
+							<span class="text">文件名</span>
+						</li>
+						<li class="col">
+							<span class="text">大小</span>
+						</li>
+						<li class="col last_col">
+							<span class="text">修改日期</span>
+							<em></em>
+						</li>
+					</ul>
+					<div class="list_head_operatearea">
+						<span class="count">已选中0个文件/文件夹</span>
+						<div class="list_head_operate clear">
+							<span class="button share">
+								<a href="#">分享</a>
+								<em class="icon"></em>
+							</span>
+							<span class="button down">
+								<a href="#">下载</a>
+								<em class="icon"></em>
+							</span>
+							<span class="button delete">
+								<a href="#">删除</a>
+								<em class="icon"></em>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div id="list_area">
+					<div id="move_shadow"></div>
+					<div id="check_shadow"></div>
+					<div class="list_view_box">
+						
+					</div>
+					<div class="grid_view_box">
+					
+					</div>
+					<div id="fix_text">
+						<div class="text_box">
+							<input type="text" />
+							<span class="sure"></span>
+							<span class="cancel"></span>
+						</div>
+					</div>
+				</div>
+				<div id="file_rtBtn">
+					<ul>
+						<li class="item arrow">
+							"查看（V）"
+							<ul>
+								<li class="item">列表</li>
+								<li class="item">缩略图</li>
+							</ul>
+						</li>
+						<li class="item arrow">
+							"排列方式（O）"
+						</li>
+						<li class="item">刷新（E）</li>
+						<li class="line"></li>
+						<li class="item">重新加载页面（R）</li>
+						<li class="item">
+							<em></em>
+							新建文件夹
+						</li>
+						<li class="line"></li>
+						<li class="item">增值服务</li>
+					</ul>
+				</div>
+				<div id="file_option">
+					<ul>
+						<li class="item">打开</li>
+						<li class="item">重命名</li>
+						<li class="item">删除</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

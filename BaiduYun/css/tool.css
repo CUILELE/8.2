@@ -1,0 +1,26 @@
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.f_lt{
+	float: left;
+}
+.f_rt{
+	float: right;
+}
+.show{
+	display: block  !important;
+}
+.hide{
+	display: none !important;
+}
+.sprite{
+	background: url(../img/frame-icon.png) no-repeat;
+}
+.sprite2{
+	background: url(../img/navigator_acc381c.png) no-repeat;
+}
